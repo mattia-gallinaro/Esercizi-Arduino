@@ -1,0 +1,16 @@
+/*
+Programma per il lampeggio di un led
+*/
+#define RED_LIGHT 5
+int led = RED_LIGHT;
+void setup() {
+  pinMode(led, OUTPUT);
+  
+}
+
+void loop() {
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+}
