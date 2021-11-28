@@ -1,0 +1,5 @@
+/*
+*/
+int led = 3
+void start(){}
+void loop(){}
